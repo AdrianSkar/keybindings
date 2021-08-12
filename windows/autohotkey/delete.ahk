@@ -1,3 +1,0 @@
-#NoTrayIcon
- 
-^Backspace:: send, {delete}
