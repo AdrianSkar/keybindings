@@ -22,17 +22,24 @@ Move the scripts to the directory `~/.config/autokey/data/`.
 
 # Windows
 
-## AutoHotKey
-[AutoHotKey](https://autohotkey.com) needs to be installed for Windows. The scripts can be found [here](windows/autohotkey).
+## AutoHotkey
+[AutoHotkey](https://autohotkey.com) needs to be installed for Windows. The scripts can be found [here](windows/autohotkey).
 
-| Shortcut                         | Output                           |
-| -------------------------------- | -------------------------------- |
-| CAPSLOCK + { i, j, k, l }        | { Up, Left, Down, Right }        |
-| CAPSLOCK + ALT + { i, j, k, l }  | CTRL + { Up, Left, Down, Right } |
-| CAPSLOCK + CTRL + { i, j, k, l } | ALT + { Up, Left, Down, Right }  |
-| CAPSLOCK + { u, o }              | { Home, End }                    |
-| ALT + { i, k }                   | { PageUp, PageDown }             |
-| CAPSLOCK + { y, h }              | { PageUp, PageDown }             |
+| Shortcut                                | Output                           |
+| --------------------------------------- | -------------------------------- |
+| CAPSLOCK + { ; }							  		  	| { Delete }						           |
+| CAPSLOCK + CTRL + { ; }									| CTRL + { Delete }						     |
+| CAPSLOCK + { p }												| { Media play/pause }				     |
+| CAPSLOCK + { u, o }              				| { Home, End }            				 |
+| CAPSLOCK + CTRL { u, o }        				| CTRL + { Home, End }             |
+| CAPSLOCK + CTRL + SHIFT { u, o }        | CTRL + SHIFT + { Home, End } |
+| CAPSLOCK + { y, h }									  	| { PageUp, PageDown }						 |
+| CAPSLOCK + CTRL + { y, h }							| CTRL + { PageUp, PageDown }	     |
+| CAPSLOCK + { i, j, k, l }        				| { Up, Left, Down, Right }				 |
+| CAPSLOCK + ALT + { i, j, k, l }         | ALT + { Up, Left, Down, Right }  |
+| CAPSLOCK + CTRL + { i, j, k, l }				| CTRL + { Up, Left, Down, Right } |
+| CAPSLOCK + CTRL + SHIFT { i, j, k, l }  | CTRL + SHIFT + { Up, Left, Down, Right } |
+| CAPSLOCK + SHIFT + ALT + { i, j, k, l } | SHIFT + ALT + { Up, Left, Down, Right }  |
 
 ### Automatically start up
  1. Find the script file, select it, and press Control-C.
