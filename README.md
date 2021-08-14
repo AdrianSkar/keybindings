@@ -1,30 +1,21 @@
 # Custom/mod version of @madslundt's [keybindings repo](https://github.com/madslundt/keybindings).
 
-Using the caps lock key, remap keys  `{ i, j, k, l }` to arrows and several
-other common shortcuts.
+Using the caps lock key to remap `{ i, j, k, l }`  to act as arrows and several other keys to act as common shortcuts.
 
 For [Linux](#linux) and [Windows](#windows)
 
 # Linux
 ## AutoKey
-[AutoKey](https://github.com/autokey/autokey) needs to be installed for Linux. This can be downloaded within Ubuntu's package manager. The scripts can be found [here](linux/autokey).
+[AutoKey](https://github.com/autokey/autokey) needs to be installed for Linux. This can probably be found on your package manager. The scripts can be found [here](linux/autokey).
 
-Caps lock has to be changed to work as the **hyper** key. This can be done within **Gnome Tweak Tool**.
-
-<!-- | Shortcut                         | Output                           |
-| -------------------------------- | -------------------------------- |
-| CAPS LOCK + { i, j, k, l }        | { Up, Left, Down, Right }        |
-| CAPS LOCK + CTRL + { i, j, k, l } | ALT + { Up, Left, Down, Right }  |
-| CAPS LOCK + ALT + { i, j, k, l }  | CTRL + { Up, Left, Down, Right } |
-| CAPS LOCK + { u, o }              | { Home, End }                    |
-| ALT + { i, k }                   | { PageUp, PageDown }             | -->
+Caps lock has to be changed to work as the **hyper** key. This can be done using *Gnome Tweak Tool* or under *System Settings -> Input Devices -> Keyboard -> Advanced -> Caps Lock behavior -> [x] Make Caps Lock an additional Hyper* in KDE.
 
 <!-- TODO: !-->
 | Shortcut                                | Output                           |
 | --------------------------------------- | -------------------------------- |
 | CAPS LOCK + { ; }							  		  	| { Delete }						           |
 | CAPS LOCK + CTRL + { ; }								| CTRL + { Delete }						     |
-| !CAPS LOCK + { p }											| { Media play/pause }				     |
+| CAPS LOCK + { p }									   		| { Media play/pause }				     |
 | CAPS LOCK + { u, o }              			| { Home, End }            				 |
 | CAPS LOCK + CTRL { u, o }        				| CTRL + { Home, End }             |
 | CAPS LOCK + CTRL + SHIFT { u, o }       | CTRL + SHIFT + { Home, End }     |
