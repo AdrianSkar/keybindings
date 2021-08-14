@@ -11,15 +11,34 @@ For [Linux](#linux) and [Windows](#windows)
 
 Caps lock has to be changed to work as the **hyper** key. This can be done within **Gnome Tweak Tool**.
 
-| Shortcut                         | Output                           |
+<!-- | Shortcut                         | Output                           |
 | -------------------------------- | -------------------------------- |
 | CAPS LOCK + { i, j, k, l }        | { Up, Left, Down, Right }        |
 | CAPS LOCK + CTRL + { i, j, k, l } | ALT + { Up, Left, Down, Right }  |
 | CAPS LOCK + ALT + { i, j, k, l }  | CTRL + { Up, Left, Down, Right } |
 | CAPS LOCK + { u, o }              | { Home, End }                    |
-| ALT + { i, k }                   | { PageUp, PageDown }             |
+| ALT + { i, k }                   | { PageUp, PageDown }             | -->
+
+<!-- TODO: !-->
+| Shortcut                                | Output                           |
+| --------------------------------------- | -------------------------------- |
+| CAPS LOCK + { ; }							  		  	| { Delete }						           |
+| CAPS LOCK + CTRL + { ; }								| CTRL + { Delete }						     |
+| !CAPS LOCK + { p }											| { Media play/pause }				     |
+| CAPS LOCK + { u, o }              			| { Home, End }            				 |
+| CAPS LOCK + CTRL { u, o }        				| CTRL + { Home, End }             |
+| CAPS LOCK + CTRL + SHIFT { u, o }       | CTRL + SHIFT + { Home, End }     |
+| CAPS LOCK + { y, h }									  | { PageUp, PageDown }						 |
+| CAPS LOCK + CTRL + { y, h }							| CTRL + { PageUp, PageDown }	     |
+| CAPS LOCK + { i, j, k, l }        			| { Up, Left, Down, Right }				 |
+| CAPS LOCK + ALT + { i, j, k, l }        | ALT + { Up, Left, Down, Right }  |
+| CAPS LOCK + SHIFT + { i, j, k, l }      | SHIFT + { Up, Left, Down, Right }|
+| CAPS LOCK + CTRL + { i, j, k, l }				| CTRL + { Up, Left, Down, Right } |
+| CAPS LOCK + CTRL + SHIFT { i, j, k, l } | CTRL + SHIFT + { Up, Left, Down, Right } |
+| CAPS LOCK + SHIFT + ALT + { i, j, k, l }| SHIFT + ALT + { Up, Left, Down, Right }  |
 
 Move the scripts to the directory `~/.config/autokey/data/`.
+
 
 # Windows
 

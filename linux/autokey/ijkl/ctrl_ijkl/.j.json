@@ -5,7 +5,7 @@
     "modes": [
         3
     ],
-    "usageCount": 14,
+    "usageCount": 9,
     "prompt": false,
     "omitTrigger": false,
     "showInTrayMenu": false,
@@ -19,6 +19,7 @@
     },
     "hotkey": {
         "modifiers": [
+            "<ctrl>",
             "<hyper>"
         ],
         "hotKey": "j"

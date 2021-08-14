@@ -1,11 +1,11 @@
 {
     "type": "script",
-    "description": "j",
+    "description": "i",
     "store": {},
     "modes": [
         3
     ],
-    "usageCount": 14,
+    "usageCount": 2,
     "prompt": false,
     "omitTrigger": false,
     "showInTrayMenu": false,
@@ -19,9 +19,10 @@
     },
     "hotkey": {
         "modifiers": [
-            "<hyper>"
+            "<hyper>",
+            "<shift>"
         ],
-        "hotKey": "j"
+        "hotKey": "i"
     },
     "filter": {
         "regex": null,
