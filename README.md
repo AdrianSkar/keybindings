@@ -10,7 +10,6 @@ For [Linux](#linux) and [Windows](#windows)
 
 Caps lock has to be changed to work as the **hyper** key. This can be done using *Gnome Tweak Tool* or under *System Settings -> Input Devices -> Keyboard -> Advanced -> Caps Lock behavior -> [x] Make Caps Lock an additional Hyper* in KDE.
 
-<!-- TODO: !-->
 | Shortcut                                | Output                           |
 | --------------------------------------- | -------------------------------- |
 | CAPS LOCK + { ; }							  		  	| { Delete }						           |
@@ -48,6 +47,7 @@ Move the scripts to the directory `~/.config/autokey/data/`.
 | CAPS LOCK + CTRL + { y, h }							| CTRL + { PageUp, PageDown }	     |
 | CAPS LOCK + { i, j, k, l }        			| { Up, Left, Down, Right }				 |
 | CAPS LOCK + ALT + { i, j, k, l }        | ALT + { Up, Left, Down, Right }  |
+| CAPS LOCK + SHIFT + { i, j, k, l }      | SHIFT + { Up, Left, Down, Right }|
 | CAPS LOCK + CTRL + { i, j, k, l }				| CTRL + { Up, Left, Down, Right } |
 | CAPS LOCK + CTRL + SHIFT { i, j, k, l } | CTRL + SHIFT + { Up, Left, Down, Right } |
 | CAPS LOCK + SHIFT + ALT + { i, j, k, l }| SHIFT + ALT + { Up, Left, Down, Right }  |
