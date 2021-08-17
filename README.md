@@ -52,6 +52,10 @@ Move the scripts to the directory `~/.config/autokey/data/`.
 | CAPS LOCK + CTRL + SHIFT { i, j, k, l } | CTRL + SHIFT + { Up, Left, Down, Right } |
 | CAPS LOCK + SHIFT + ALT + { i, j, k, l }| SHIFT + ALT + { Up, Left, Down, Right }  |
 
+### Caps Lock state/behavior
+Caps Lock default behavior is `AlwaysOff`. This feature can be enabled by pressing both `Shift` keys at the same time. This will toggle the Caps Lock state until only one `Shift` key is pressed, when the `AlwaysOff` state will be restored.
+
+
 ### Automatically run at start up
  1. Find the script file, select it, and press `Control + C`.
  2. Start **Run** and write `shell:startup`.

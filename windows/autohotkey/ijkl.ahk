@@ -1,8 +1,17 @@
+; CapsLockState + Shift behavior
+
 SetCapsLockState, AlwaysOff
 
-CapsLock & Lshift::
-    SetCapsLockState, On
+<+RShift::
+>+LShift::
+	SetCapsLockState,% GetKeyState("CapsLock","T") ? "Off" : "On"
+Return
 
+Shift::
+    SetCapsLockState, AlwaysOff
+return
+
+; Arrow and combination mapping
 CapsLock & i::
 if GetKeyState("Shift", "D")
     if GetKeyState("Alt", "D")
