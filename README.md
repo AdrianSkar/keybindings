@@ -24,9 +24,8 @@ Caps lock has to be changed to work as the **hyper** key. This can be done using
 | CAPS LOCK + ALT + { i, j, k, l }        | ALT + { Up, Left, Down, Right }  |
 | CAPS LOCK + SHIFT + { i, j, k, l }      | SHIFT + { Up, Left, Down, Right }|
 | CAPS LOCK + CTRL + { i, j, k, l }				| CTRL + { Up, Left, Down, Right } |
-<!-- To do -->
-<!-- | CAPS LOCK + CTRL + ALT { i, j, k, l }   | CTRL + ALT + { Up, Left, Down, Right } | -->
 | CAPS LOCK + CTRL + SHIFT { i, j, k, l } | CTRL + SHIFT + { Up, Left, Down, Right } |
+| CAPS LOCK + CTRL + ALT { i, j, k, l }   | CTRL + ALT + { Up, Left, Down, Right } |
 | CAPS LOCK + SHIFT + ALT + { i, j, k, l }| SHIFT + ALT + { Up, Left, Down, Right }  |
 
 Move the scripts to the directory `~/.config/autokey/data/`.
