@@ -44,6 +44,7 @@ Move the scripts to the directory `~/.config/autokey/data/`.
 | CAPS LOCK + { p }												| { Media play/pause }				     |
 | CAPS LOCK + { u, o }              			| { Home, End }            				 |
 | CAPS LOCK + CTRL { u, o }        				| CTRL + { Home, End }             |
+| CAPS LOCK + SHIFT { u, o }        			| SHIFT + { Home, End }       	   |
 | CAPS LOCK + CTRL + SHIFT { u, o }       | CTRL + SHIFT + { Home, End } |
 | CAPS LOCK + { y, h }									  | { PageUp, PageDown }						 |
 | CAPS LOCK + CTRL + { y, h }							| CTRL + { PageUp, PageDown }	     |
