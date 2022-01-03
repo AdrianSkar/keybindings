@@ -31,6 +31,7 @@ Caps lock has to be changed to work as the **hyper** key. This can be done using
 
 Move the scripts to the directory `~/.config/autokey/data/`.
 
+Add `autokey-gtk` or `autokey-qt` to the autostart config to have it running automatically or select the "*Automatically start Autokey at login*" option on the app preferences.
 
 # Windows
 
