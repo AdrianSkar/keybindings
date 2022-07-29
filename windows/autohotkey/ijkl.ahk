@@ -102,7 +102,7 @@ else if GetKeyState("Ctrl", "D")
     else
         Send ^{Home}
 else if GetKeyState("Alt", "D")
-    Send ^{Home}
+    Send !{Home}
 else
     Send {Home}
 return
@@ -121,7 +121,7 @@ else if GetKeyState("Ctrl", "D")
     else
         Send ^{End}
 else if GetKeyState("Alt", "D")
-    Send ^{End}
+    Send !{End}
 else
     Send {End}
 return

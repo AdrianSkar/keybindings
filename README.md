@@ -45,8 +45,9 @@ Add `autokey-gtk` or `autokey-qt` to the autostart config to have it running aut
 | CAPS LOCK + { p }												| { Media play/pause }				     |
 | CAPS LOCK + { u, o }              			| { Home, End }            				 |
 | CAPS LOCK + CTRL { u, o }        				| CTRL + { Home, End }             |
+| CAPS LOCK + ALT { u, o }        				| ALT + { Home, End }            	 |
 | CAPS LOCK + SHIFT { u, o }        			| SHIFT + { Home, End }       	   |
-| CAPS LOCK + CTRL + SHIFT { u, o }       | CTRL + SHIFT + { Home, End } |
+| CAPS LOCK + CTRL + SHIFT { u, o }       | CTRL + SHIFT + { Home, End } 		 |
 | CAPS LOCK + { y, h }									  | { PageUp, PageDown }						 |
 | CAPS LOCK + CTRL + { y, h }							| CTRL + { PageUp, PageDown }	     |
 | CAPS LOCK + { i, j, k, l }        			| { Up, Left, Down, Right }				 |
