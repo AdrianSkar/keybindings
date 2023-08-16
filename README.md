@@ -1,6 +1,6 @@
 # Custom/mod version of @madslundt's [keybindings repo](https://github.com/madslundt/keybindings).
 
-Using the caps lock key to remap `{ i, j, k, l }`  to act as arrows and several other keys to act as common shortcuts.
+Using the caps lock key to remap `{ i, j, k, l }`  to act as arrows while pressing both and several other keys to act as common shortcuts.
 
 For [Linux](#linux) and [Windows](#windows)
 
