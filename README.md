@@ -34,6 +34,11 @@ Move the scripts to the directory `~/.config/autokey/data/`.
 
 Add `autokey-gtk` or `autokey-qt` to the autostart config to have it running automatically or select the "*Automatically start Autokey at login*" option on the app preferences.
 
+## Input Remapper
+
+If you have issues making the Caps Lock an additional Hyper key you can try [Input Remapper](https://github.com/sezanzeb/input-remapper) instead.
+It supports X11, Wayland and many input device types.
+
 # Windows
 
 ## AutoHotkey
